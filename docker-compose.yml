@@ -11,6 +11,15 @@ services:
       - .:/home/node/app
     depends_on:
       - db
+    develop:
+      watch:
+        - action: sync
+          path: ./src
+          target: /src/app
+          ignore:
+            - node_modules/
+        - action: rebuild
+          path: package.json
   db:
     build: .docker/postgres
     container_name: prismaapi-db
