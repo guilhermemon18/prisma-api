@@ -1,6 +1,6 @@
 # PrismaAPI
 
-Uma API simples para aprender os conceitos no curso de Node.js com Typescript e framework Nest. Permite criar, editar e excluir users e posts.
+Uma API simples para aprender os conceitos de Node.js com Typescript e framework Nest. Permite criar, editar e excluir users e posts.
 
 ## Tecnologias Utilizadas
 
