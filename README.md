@@ -29,7 +29,7 @@ http://localhost:3000/api
 Faça um clone deste repositório e instale no seu ambiente de desenvolvimento usando o seguinte comando no seu terminal (escolha um diretório apropriado):
 
 ```shell
-git clone https://github.com/aluiziodeveloper/nestjs-app-prisma.git
+git clone git@github.com:guilhermemon18/prisma-api.git
 ```
 
 Após clonar o conteúdo do repositório, acesse o diretório e execute os comandos abaixo:
